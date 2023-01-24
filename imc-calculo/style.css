@@ -22,8 +22,8 @@ div {
     display: grid;
     margin: auto;
     justify-content: center;
-    width: 300px;
-    height: 500px;
+    width: 380px;
+    height: 550px;
     padding: 12px;
     background: rgba(0, 0, 0, 0.11);
     box-shadow: 0px 8px 10px black;
@@ -37,17 +37,19 @@ b {
 }
 p {
     margin: 30px 0px 20px 0px;
+    padding: 10px 30px 10px 30px;
     background: rgba(255, 255, 255, 0.486);
     height: 130px;
     border-radius: 8px;
     text-align: center;
     padding-top: 30px;
+    width: 280px;
     
 }
 
 input {
     padding: 10px;
-    width: 220px;
+    width: 320px;
     border-radius: 8px;
     border: none;
     background: rgba(255, 255, 255, 0.719);
