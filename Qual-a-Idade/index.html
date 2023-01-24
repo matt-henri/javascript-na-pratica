@@ -16,11 +16,14 @@
     function idade() {
         var ano
         ano = document.getElementById('ano').value
-        if (ano < 18) {
+        if (ano == '') {
+            document.getElementById('resultado').textContent = 'preencha os campos'
+        } else if (ano < 18){
             document.getElementById('resultado').textContent = 'menor de idade'
         } else {
             document.getElementById('resultado').textContent = 'maior de idade'
-    }} 
+    }
+} 
 
              
 </script>
