@@ -1,0 +1,72 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background: linear-gradient(to top, rgb(14, 152, 187), rgb(0, 63, 136) );
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 0px 3px 5px black;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    background: rgba(255, 255, 255, 0.438);
+    width: 450px;
+    height: 330px;
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.726);
+
+}
+
+button {
+    display: table-row-group;
+    padding: 1px 70px 1px 70px;
+    background: rgb(35, 87, 129);
+    color: white;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    border: none;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.493);
+    cursor: pointer;
+    margin: 0px 10px 0px 0px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    text-align: left;
+}
+
+#tabRes {
+    background: rgba(255, 255, 255, 0.479);
+    width: 420px;
+    height: 150px;
+    margin: 0;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+
+#botoes {
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+
+
