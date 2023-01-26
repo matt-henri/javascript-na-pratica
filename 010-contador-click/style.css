@@ -45,7 +45,7 @@ h2 {
 
 button {
     display: flex;
-    margin: 20px;
+    margin: 30px 20px 0px 20px;
     width: 190px;
     height: 70px;
     text-align: center;
