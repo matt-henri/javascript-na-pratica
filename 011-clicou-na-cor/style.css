@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, #430261e9,#390341, #280128, #190020, black);
+    display: flex;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 0px 2px 2px black;
+}
+
+main {
+    margin: 120px auto;
+    background: rgba(255, 255, 255, 0.198);
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.667);
+}
+
+.caixa {
+    background: rgba(0, 0, 0, 0.159);
+    width: 320px;
+    height: 120px;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: 1px solid white;
+    
+}
+
+#resultado {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+button {
+    margin: 15px 5px 0px 5px;
+    width: 70px;
+    height: 60px;
+}
+
+#azul {
+    background: linear-gradient(to top, #080b4ae9, #3560cf) ;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.667);
+    cursor: pointer;
+}
+
+#verde {
+    background: linear-gradient(to top, #033f1ee9, #00ff4c) ;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.667);
+    cursor: pointer;
+}
+
+#amarelo {
+    background: linear-gradient(to top, #766301, #efff15) ;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.667);
+    cursor: pointer;
+}
+
+#vermelho {
+    background:  linear-gradient(to top, #370601e9, #e53939);
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.667);
+    cursor: pointer;
+}
