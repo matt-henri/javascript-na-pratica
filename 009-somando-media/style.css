@@ -1,7 +1,12 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to top, rgb(8, 21, 95), rgb(34, 66, 133));
+    background: linear-gradient(to right, rgb(70, 183, 236), rgba(46, 6, 138, 0.922));
     height: 100vh;
+}
+
+h1 {
+    color: white;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.47);
 }
 
 main {
@@ -9,17 +14,20 @@ main {
     flex-direction: column;
     align-items: center;
     margin: 120px auto;
-    background: white;
-    width: 400px;
-    height: 600px;
+    background: rgba(255, 255, 255, 0.083);
+    width: 420px;
+    height: 620px;
     border-radius: 8px;
     text-align: center;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.652);
 
     
 }
 
 div {
     padding: 5px;
+    color: white;
+    font-size: 1.1rem;
 }
 
 input {
@@ -32,13 +40,17 @@ input {
     width: 130px;
     border-radius: 5px;
     outline: none;
-    padding: 10px;
+    padding: 12px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    
     
 }
 
 #resultado {
-    background: rgb(159, 173, 202);
-    width: 200px;
+    background: rgba(255, 255, 255, 0.371);
+    width: 260px;
     height: 80px;
     margin: 12px auto;
     padding: 10px;
@@ -47,10 +59,19 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.376);
+
 }
 
 button {
     margin: 20px;
     padding: 12px;
-    width: 183px;
+    width: 280px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.376);
+    cursor: pointer;
 }

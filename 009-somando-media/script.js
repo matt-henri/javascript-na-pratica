@@ -14,7 +14,7 @@ function soma() {
         terceiro = parseInt(terceiro)
         quarto = parseInt(quarto)
 
-        let media = (primeiro + segundo + terceiro + quarto) / 4
+        let media = ((primeiro + segundo + terceiro + quarto) / 4).toFixed(1)
 
         resultado.textContent = 'Sua nota média anual foi de ' + (media)
     } else {
