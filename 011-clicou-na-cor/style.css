@@ -5,7 +5,7 @@
 }
 
 body {
-    background: linear-gradient(45deg, #430261e9,#390341, #280128, #190020, black);
+    background: linear-gradient(45deg, #0174c0e9,#01557c, #01386b, #011631, black);
     display: flex;
     height: 100vh;
 }
