@@ -6,7 +6,7 @@ let contador = 0
 
 p.textContent = contador
 
-mais.addEventListener ('click', function() {
+mais.addEventListener('click', function () {
     p.textContent = ++contador
 })
 
