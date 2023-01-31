@@ -1,13 +1,16 @@
-
 const resultado = document.getElementById('resultado')
 
-function ImparPar () {
+function ImparPar() {
     const num = document.getElementById('num').value
-    var numero = Number(num)
+    var numero = parseInt(num)
 
-    if (numero % 2 == 0) {
-        resultado.textContent = 'Este número é Par'
+    if (num !== '') {
+        if ( numero % 2 == 0 ) {
+            resultado.textContent = 'Este número é Par'
+        } else {
+            resultado.textContent = 'Este número é Impar'
+        }
     } else {
-        resultado.textContent = 'Este número é Impar'
+        resultado.textContent = 'Preencha o campo!'
     }
 }
