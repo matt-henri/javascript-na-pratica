@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(background.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+}
+
+main {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 60px auto;
+    background: rgba(214, 220, 223, 0.404);
+    border: 1px solid rgba(255, 255, 255, 0.404);
+    width: 450px;
+    height: 280px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    
+    
+}
+
+h1 {
+    color: white;
+    text-shadow: 1px 2px 2px black;
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    margin: 8px;
+    font-weight: bold;
+}
+
+.divPrincipal {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.divUm {
+    margin: 5px;
+    padding: 5px;
+}
+
+
+.divDois {
+    margin: 5px;
+    padding: 5px;
+}
+
+input {
+    background: rgb(231, 234, 238);
+    border: 1px solid rgb(104, 161, 199);
+    height: 40px;
+    outline: none;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+button {
+    width: 380px;
+    height: 45px;
+    border-radius: 50px;
+    align-items: center;
+    border: 1px solid #ffffffa6;
+    background: rgb(65, 103, 146);
+    color: white;
+    font-size: 1.4rem;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
