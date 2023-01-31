@@ -20,7 +20,7 @@ main {
     background: rgba(214, 220, 223, 0.404);
     border: 1px solid rgba(255, 255, 255, 0.404);
     width: 450px;
-    height: 280px;
+    height: 350px;
     border-radius: 5px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
     
@@ -50,12 +50,14 @@ p {
 .divUm {
     margin: 5px;
     padding: 5px;
+    text-align: center;
 }
 
 
 .divDois {
     margin: 5px;
     padding: 5px;
+    text-align: center;
 }
 
 input {
@@ -65,10 +67,12 @@ input {
     outline: none;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
+    padding: 5px;
+    text-align: center;
 }
 
 button {
-    width: 380px;
+    width: 370px;
     height: 45px;
     border-radius: 50px;
     align-items: center;
@@ -77,4 +81,17 @@ button {
     color: white;
     font-size: 1.4rem;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 15px;
+}
+
+.caixaRes>p {
+    background: white;
+    width: 330px;
+    height: 40px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    text-align: center;
 }
