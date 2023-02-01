@@ -14,7 +14,7 @@ function soma() {
             resultado.textContent = 'O número da Segunda Caixa é maior'
         }
     } else {
-        resultado.textContent = 'Favor preencha todos os campos!'
+        resultado.textContent = 'Favor preencher todos os campos!'
     }
 
 }
