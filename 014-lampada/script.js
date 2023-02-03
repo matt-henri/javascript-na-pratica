@@ -4,5 +4,8 @@ const lamp = document.getElementById('lamp')
 
 
 function lampOn() {
-
+    img.src = './img/ligada.jpg'
 }
+
+
+turnOn.addEventListener('clickup', lampOn)
