@@ -7,19 +7,25 @@ function isLampBroken() {
 }
 
 function lampBroken() {
-    lamp.src = './img/quebrada.jpg'
+    if ( !isLampBroken() ) {
+            lamp.src = './img/quebrada.jpg'
+    }
 }
 
 function lampOn() {
-    lamp.src = './img/ligada.jpg'
+    if ( !isLampBroken() ) {
+        lamp.src = './img/ligada.jpg'
+    }
 }
 
 function lampOf() {
-    lamp.src = './img/desligada.jpg'
+    if ( isLampBroken() ) {
+            lamp.src = './img/desligada.jpg'
+    }
 }
 
 turnOn.addEventListener('click', lampOn)
 turnOff.addEventListener('click', lampOf)
 lamp.addEventListener('mouseover', lampOn)
-lamp.addEventListener('mouseout', lampOf)
+lamp.addEventListener('mouseleave', lampOf)
 lamp.addEventListener('dblclick', lampBroken)
