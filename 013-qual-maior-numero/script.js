@@ -10,6 +10,8 @@ function soma() {
     if (numUm !== '' && numDois !== '') {
         if (numeroUm > numeroDois) {
             resultado.textContent = 'O número da Primeira Caixa é maior'
+        } else if (numeroUm == numeroDois) {
+            resultado.textContent = 'Os números são iguais'
         } else {
             resultado.textContent = 'O número da Segunda Caixa é maior'
         }
